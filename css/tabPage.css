@@ -1,0 +1,26 @@
+#iTab{
+	float:left;
+	border:1px solid black;
+	width: 100px;
+}
+#pTab{
+	float:left;
+	border:1px solid black;
+	width: 100px;
+
+}
+#iBlock{
+	clear: left;
+	float:left;
+}
+#pBlock{
+	float:left;
+	visibility: hidden;
+}
+
+#pTab:hover{
+	cursor:pointer;
+}
+#iTab:hover{
+	cursor:pointer;
+}

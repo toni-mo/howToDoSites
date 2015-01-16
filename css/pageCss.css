@@ -1,0 +1,109 @@
+.border{
+	border: 1px solid black;
+}
+.active{
+	color:orange;
+}
+.notice{
+	color:blue;/*asdas*/
+}
+.yellowBlock{
+	height: 200px;
+	width: 100px;
+	background: yellow;
+}
+.left-bar{
+	float:left;
+}
+.toRight{
+	margin-left: 100px;
+	background: lightblue;
+	font-family:Arial;
+}
+.title{
+	width: 200px;
+	border: 1px solid black;
+}
+/*ul#items1 li, ul#items2 li, ul#items3 li{
+	background: lightblue;
+	border-bottom: 1px solid black;
+	
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	width: 200px;
+}*/
+ul[id*="items"] li:last-child {
+ border:none;
+}
+ul li ul {
+	padding: 0;
+	list-style: none;
+}
+ul{
+	list-style: none;
+}
+li ul li {
+	padding-left: 0px;
+	padding-right: -15px;
+	list-style: none;
+	font-size: 0.9em;
+}
+ul li div{
+	font-size: 1.3em;
+}
+/*li div{
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	border-top: 1px solid black;
+
+	width:200px;
+}*/
+/*#sleepNumberBeds{
+	border-top: 1px solid black;
+}*/
+li, div{
+	border-radius: 5px;
+}
+li div a{
+	text-decoration: none;
+}
+li div a:visited{
+	color:blue;
+}
+.firstLi::first-line{
+	color:red;
+}
+ul.menu li{
+	border:1px solid black;
+}
+
+/*NEW LIST*/
+ul.fruitMenu{
+	border:1px solid black;
+	display:inline-block;
+	border-radius:15px;
+	padding-left:0;
+}
+
+li span{
+	font-size: 1.5em;
+}
+
+span+ul li{
+	font-size:1em;
+	padding-left:16px;
+}
+span:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+ul.fruitMenu li span{
+	/*border:1px solid black;*/
+	margin-left: 10px;
+}
+ul[id*="List"] li{
+	border-bottom: 1px solid black;
+	border-radius: 0;
+}
