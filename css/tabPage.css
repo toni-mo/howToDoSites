@@ -1,26 +1,78 @@
-#iTab{
+.infoTab{
+	position:relative;
 	float:left;
-	border:1px solid black;
+	border-top:1px solid black;
+	border-right:1px solid black;
+	border-left: 1px solid black;
+
 	width: 100px;
+	border-bottom:px solid #fff;
+	margin-bottom:-3px;
+
+	
+	
 }
-#pTab{
+.picTab{
 	float:left;
 	border:1px solid black;
 	width: 100px;
 
+
 }
-#iBlock{
+.infoBlock{
+	clear:left;
+	border: 1px solid black;
+	display: block;
+	margin-bottom:-13px;
+}
+.picBlock{
 	clear: left;
-	float:left;
-}
-#pBlock{
-	float:left;
-	visibility: hidden;
+	display: none;
+	border: 1px solid black;
 }
 
-#pTab:hover{
+.picTab:hover{
 	cursor:pointer;
 }
-#iTab:hover{
+.infoTab:hover{
 	cursor:pointer;
+}
+.infoTab:hover, .picTab:hover{
+	background: #9EA4B2;
+}
+.activeTab{
+	border-top:1px solid black;
+	border-right:1px solid black;
+	border-left:1px solid black;
+	border-bottom: 1px solid white;
+	color: red;
+	float:left;
+	width:100px;
+	z-index: 1;
+}
+.activeBlock{
+	border-top:1px solid black;
+	border-right:1px solid black;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	color: red;
+	clear:left;
+	float:left;
+
+}
+
+span{
+	border-top:1px solid black;
+	border-right: 1px solid black;
+	border-left:1px solid black;
+	border-bottom: 1px solid white;
+	margin-bottom: 20px;
+	border-bottom-right-radius:20px; 
+}
+.afterSpan{
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	margin-top:-1px;
 }

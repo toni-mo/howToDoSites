@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Tabs</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+<body>
+	<div role="tabpanel">
+
+
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs" role="tablist" id="myTab">
+			<li role="presentation" class="active">
+				<a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+			</li>
+			<li role="presentation">
+				<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a>
+			</li>
+			<li role="presentation">
+				<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Message</a>
+			</li>
+			<li role="presentation">
+				<a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a>
+			</li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" id="home">Home</div>
+			<div role="tabpanel" class="tab-pane" id="profile">Profile</div>
+			<div role="tabpanel" class="tab-pane" id="messages">Messages</div>
+			<div role="tabpanel" class="tab-pane" id="settings">Settings</div>
+		</div>
+
+
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/BootstrapTabsScript.js"></script>
+</body>
+</html>

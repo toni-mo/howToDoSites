@@ -1,0 +1,6 @@
+.border{
+	border: 1px solid black;
+}
+.leftcol, .middlecol, .rightcol{
+	height: 500px;
+}

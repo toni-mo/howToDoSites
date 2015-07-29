@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page with Table</title>
+	<style type="text/css">
+		/*ЗАДАЄМО РАМКУ ДЛЯ ТАБЛИЦІ*/
+		table, td, th{
+			/*ТОВЩИНА ВИДИМА ЧОРНА*/
+			border: 1px solid black; 
+			/*РАМКА СУЦІЛЬНА*/
+			border-collapse: collapse;
+		}
+
+		/*ВКАЗУЄМ ШИРИНУ ТА ВИСОТУ КЛІТИНОК*/
+		td, th{
+			width: 100px;
+			height: 30px;
+		}
+	</style>
+</head>
+<body>
+
+
+	<table>
+  <caption>Test table</caption>
+    <tr>
+      <td colspan = 2></td>
+      <td rowspan = 3></td>
+    </tr>
+    <tr>
+      <td rowspan = 2></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+   </tr>
+</table>
+<script type="text/javascript">
+  $(document).ready(function(){
+     $("body").append("<button>Test</button>");
+     $("button").click(function(event){
+       alert("I'am a button!");
+     });
+  });
+
+  Що можна сказати про даний скрипт?
+$('div').click(function(){
+   $(this).load('data.xml', {}, function(data){
+       $('div').html(data);
+   });
+})
+
+Що можна сказати про даний скрипт?
+var message = "path: ";
+try
+{
+  try
+  {
+    message += "1 ";
+    throw "exception";
+    message += "2 ";
+  }
+ catch(e)
+ {
+    message += "3 ";
+    throw e;
+    message += "4 ";
+  }
+}
+catch(e)
+{
+  message += "5 ";
+}
+alert(message);
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.border{
+	border: 1px solid black;
+}
+.block{
+	display:inline-block;
+	height:100px;
+	width: 100px;
+}
+.enhanced{
+	vertical-align: top;
+}

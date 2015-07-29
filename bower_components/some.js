@@ -1,0 +1,1 @@
+var variable = "This is string variable";

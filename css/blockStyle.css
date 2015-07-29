@@ -1,0 +1,147 @@
+.red{
+	color:red;
+}
+.square{
+	width: 200px;
+	height: 200px;
+	background:#87BF85;
+
+	position: absolute;
+	top:100px;
+	left:700px;
+
+}
+.innerSquare{
+	width: 60px;
+	height: 60px;
+	background: #35747F;
+
+	position: relative;
+	top: 20px;
+	left:40px;
+	margin-left:10px;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+.content{
+	width: 500px;
+	height: 500px;
+	background: #E5C97C;
+
+	position: absolute;
+	border: 1px solid black;
+}
+
+.firstTab, .secondTab{
+
+}
+.firstBlock, .secondBlock{
+	
+	width:100%;
+	height:200px;
+	background: inherit;
+}
+
+.firstTab{
+	position: inherit;
+	left:0px;
+
+	border-top: 1px solid black;
+	/*border-left: 1px solid black;*/
+	border-right: 1px solid black;
+	/*border-bottom: 1px solid;*/
+}
+.secondTab{
+	position: inherit;
+	left: 60px;
+	/*border-left: 1px solid black;*/
+	border-right: 1px solid black;
+	/*border-bottom: 1px solid;*/
+}
+.firstBlock{
+	
+	position:inherit;
+	top: 20px;
+	float: left;
+	margin-top:;
+	z-index: 0;
+
+	border-top: 1px solid black;
+	/*border-left: 1px solid black;*/
+	border-right: 1px solid black;
+	border-bottom: 1px solid;
+}
+.secondBlock{
+	top: 250px;
+	position: inherit;
+	margin-top:-1px;
+
+	border-top: 1px solid black;
+	/*border-left: 1px solid black;*/
+	border-right: 1px solid black;
+	border-bottom: 1px solid;
+}
+.activeTab{
+	border-bottom: 3px solid #E5C97C;
+	z-index:100;
+}
+
+.upContent{
+	width: 700px;
+	height: 700px;
+	background: #40332B;
+
+}
+.firstTab:hover, .secondTab:hover{
+	cursor:pointer;
+}
+
+/*INLINE CONTENT---------------------------------------------------------------------------------*/
+.inlineContent{
+	
+	width: 400px;
+	height: 400px;
+	background: #7F7108;
+	border: 1px solid black;
+	
+}
+.innerInlineBlock{
+	display:inline-block;
+	background: #BF5F61;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+.secondInnerBlock{
+	display: inline-block;
+	background:#BF5F61;
+	margin-top:-10px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.lowerBlock, .anotherLowerBlock{
+		height:100px;
+		background: #BF5F61;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		margin-top: -2px;
+}
+.anotherLowerBlock{
+	display: none;
+}
+.innActiveTab{
+	border-bottom: 1px solid #BF5F61; ;
+}
+.innerInlineBlock:hover, .secondInnerBlock:hover{
+	cursor: pointer;
+}
+
+
+.card
+{
+position: relative;
+left: 145px;
+background-color: #0000AA;
+width: 50px;
+height: 50px;
+}
