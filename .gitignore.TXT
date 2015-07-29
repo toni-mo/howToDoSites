@@ -1,1 +1,1 @@
-/myfile.txt
+/*.txt
